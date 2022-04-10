@@ -16,6 +16,13 @@ export class QuotesComponent implements OnInit {
     
   ];
 
+  addQuote(quote: Quotez){
+    let quoteLength =  this.quotes.length;
+    quote.id = quoteLength +1;
+    this.quotes.push(quote);
+
+  }
+
   completeqoute(isComplete:boolean, index:number){
     if(isComplete){
       const toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].quote}`);
