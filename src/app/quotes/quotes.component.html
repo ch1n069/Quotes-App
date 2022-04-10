@@ -1,9 +1,9 @@
-<div class="container mt-5">
+<div class="cont-1 container mt-5">
     <div class="row">
         <div class="col" *ngFor='let quote of quotes; let i =index'>
             <div id="card-1" class="card mb-5">
-                <p class=" m-4 lead">
-                    {{quote.quote}} <span class="author1">~ {{quote.author}}</span></p>
+                <p class=" m-4 lead"><span class="left"><i class="fa fa-quote-left" aria-hidden="true"></i>
+                </span> {{quote.quote}} <span class="author1">~ {{quote.author}}</span></p>
 
                 <div class="card-footer">
                     <button class="btn btn-primary"><i class="fa fa-thumbs-up" aria-hidden="true"></i> like</button> <span class="upvote">{{quote.upvotes}}</span>

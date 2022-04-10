@@ -8,9 +8,15 @@
     color: #fff;
 }
 
+.cont-1 {}
+
 .lead {
     font-weight: bold;
     font-family: 'Tulpen One', cursive;
+}
+
+.left {
+    font-size: 20px;
 }
 
 .author {
