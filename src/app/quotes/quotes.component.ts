@@ -16,6 +16,14 @@ export class QuotesComponent implements OnInit {
     
   ];
 
+  completeqoute(isComplete:boolean, index:number){
+    if(isComplete){
+      const toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].quote}`);
+      if(toDelete){
+        this.quotes.splice(index, 1);
+      }
+    }
+  }
 
   like(i:number){
     this.quotes[i].upvotes += 1;
@@ -25,6 +33,15 @@ export class QuotesComponent implements OnInit {
 
   dislikes(i:number){
     this.quotes[i].downvotes += 1;
+  }
+
+  delete(isComplete:boolean, index:number){
+    if(isComplete){
+      const toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].author}`);
+      if(toDelete){
+        this.quotes.splice(index, 1);
+      }
+    }
   }
   constructor() { }
 

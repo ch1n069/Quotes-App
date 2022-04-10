@@ -1,5 +1,6 @@
 <div class="cont-1 container mt-5">
     <div class="row">
+        <h2 class=" quota text-center mb-5">Quotes - Section</h2>
         <div class="col" *ngFor='let quote of quotes; let i =index'>
             <div id="card-1" class="card mb-5">
                 <p class=" m-4 lead"><span class="left"><i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -8,7 +9,7 @@
                 <div class="card-footer">
                     <button class="btn btn-primary" (click)="like(i)"><i class="fa fa-thumbs-up" aria-hidden="true"></i> like</button> <span class="upvote">{{quote.upvotes}}</span>
                     <button class=" mx-3 btn btn-warning" (click)="dislikes(i)"><i class="fa fa-thumbs-down" aria-hidden="true"></i> Dislike</button> <span class="upvote">{{quote.downvotes}}</span>
-                    <button class=" mx-2 btn btn-danger">Delete Quote</button>
+                    <app-delete [quote]='quote' (isComplete)="completeqoute($event,i)"></app-delete>
                 </div>
             </div>
         </div>
