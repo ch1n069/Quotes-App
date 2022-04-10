@@ -16,6 +16,16 @@ export class QuotesComponent implements OnInit {
     
   ];
 
+
+  like(i:number){
+    this.quotes[i].upvotes += 1;
+    console.log(this.quotes[i])
+
+  }
+
+  dislikes(i:number){
+    this.quotes[i].downvotes += 1;
+  }
   constructor() { }
 
   ngOnInit(): void {
