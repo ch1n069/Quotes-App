@@ -8,6 +8,16 @@
     color: #fff;
 }
 
+#like {
+    background-color: #94BAC3;
+    color: white;
+}
+
+#dislike {
+    color: white;
+    background-color: #D4CAD5;
+}
+
 .quota {
     font-family: 'Rye', cursive;
     font-weight: bold;

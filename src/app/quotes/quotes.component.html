@@ -7,12 +7,15 @@
                 </span> {{quote.quote}} <span class="author1">~ {{quote.author}}</span></p>
 
                 <div class="card-footer">
-                    <button class="btn btn-primary" (click)="like(i)"><i class="fa fa-thumbs-up" aria-hidden="true"></i> like</button> <span class="upvote">{{quote.upvotes}}</span>
-                    <button class=" mx-3 btn btn-warning" (click)="dislikes(i)"><i class="fa fa-thumbs-down" aria-hidden="true"></i> Dislike</button> <span class="upvote">{{quote.downvotes}}</span>
+                    <button id="like" class="btn " (click)="like(i)"><i class="fa fa-thumbs-up" aria-hidden="true"></i> like</button> <span class="upvote">{{quote.upvotes}}</span>
+                    <button id="dislike" class=" mx-3 btn btn-warning" (click)="dislikes(i)"><i class="fa fa-thumbs-down" aria-hidden="true"></i> Dislike</button> <span class="upvote">{{quote.downvotes}}</span>
                     <app-delete [quote]='quote' (isComplete)="completeqoute($event,i)"></app-delete>
                 </div>
             </div>
         </div>
+        <div class="col">
+            <app-quote-form (addQuote)="addQuote($event)"></app-quote-form>
+
+        </div>
     </div>
-    <app-quote-form (addQuote)="addQuote($event)"></app-quote-form>
 </div>

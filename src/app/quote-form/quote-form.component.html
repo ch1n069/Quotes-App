@@ -1,19 +1,19 @@
-<div class="container-fluid">
-    <h2 class="text-center">Create a new Goal</h2>
+<div class="cont-1 container-fluid">
+    <h2 class="quote text-center">Generate a new quote</h2>
     <hr>
     <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
 
         <div class="form-group">
 
-            <label for="description">Quote</label>
-            <textarea class="form-control" id="Quote" rows="4" [(ngModel)]="freshQuote.quote" name="quote" #description="ngModel" required></textarea>
+            <label id="quote" for="description">Quote</label>
+            <textarea class="form-control" id="Quote" rows="4" [(ngModel)]="freshQuote.quote" name="quote" #description="ngModel" placeholder="quote goes here" required></textarea>
             <div [hidden]="description.valid || description.pristine" class="alert alert-danger">
                 <p>Description is required</p>
             </div>
         </div>
         <div class="form-group">
 
-            <label for="name">Name</label>
+            <label id="name" for="name">Name</label>
             <input type="text" class="form-control" id="author" [(ngModel)]="freshQuote.author" name="author" #name='ngModel' required>
             <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
                 <p>Name is required</p>
