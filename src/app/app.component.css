@@ -19,6 +19,16 @@
     font-weight: bold;
 }
 
+.italy {
+    font-family: 'Rye', cursive;
+}
+
+.text-center {
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+
 .hero-1 {
     font-size: 110px;
     font-weight: bold;
