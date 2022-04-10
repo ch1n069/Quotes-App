@@ -7,6 +7,14 @@
     font-weight: 800;
 }
 
+#grunge {
+    margin-top: 7%;
+}
+
+a {
+    text-decoration: none;
+}
+
 .bobs {
     padding-left: 40%;
     font-family: 'Oswald', sans-serif;
@@ -50,4 +58,8 @@
 
 .side {
     margin-top: 30%;
+}
+
+.text-center {
+    font-size: 20px;
 }
