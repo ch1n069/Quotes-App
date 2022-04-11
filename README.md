@@ -14,7 +14,7 @@
 
 ### screenshot 3
 
-![screenshot3](./assets/images/Screenshot from 2022-04-11 08-09-)
+![screenshot3](https://www.pexels.com/photo/blue-and-gray-concrete-house-with-attic-during-twilight-186077/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 
