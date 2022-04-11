@@ -14,7 +14,7 @@
 
 ### screenshot 3
 
-![screenshot3](./assets/images/Screenshot from 2022-04-11 08-09-58)
+![screenshot3](./assets/images/Screenshot from 2022-04-11 08-09-)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 
