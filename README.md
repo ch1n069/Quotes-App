@@ -1,5 +1,21 @@
 # QuotesApp
 
+
+## Author Bruno Gatiba
+
+
+## Screenshots
+### screenshot 1
+![screenshot1](src/assets/images/Screenshot from 2022-04-11 08-09-45.png)
+
+### screenshot 2
+
+![screenshot2](src/assets/images/Screenshot from 2022-04-11 08-09-52.png)
+
+### screenshot 3
+
+![screenshot3](src/assets/images/Screenshot from 2022-04-11 08-09-58.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 
 ## Development server
