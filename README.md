@@ -6,8 +6,8 @@
 
 ## Screenshots
 ### screenshot 1
-![Screenshot from 2022-04-11 08-09-58](https://user-images.githubusercontent.com/82473156/162948284-02e58939-cff2-405e-9fdf-c49bd48ee490.png)
 ![Screenshot from 2022-04-11 08-09-45](https://user-images.githubusercontent.com/82473156/162948594-90c666da-f9e3-428f-8c44-2e19b8484a8c.png)
+
 
 
 
