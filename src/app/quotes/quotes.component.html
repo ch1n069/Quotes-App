@@ -4,7 +4,14 @@
         <div class="col" *ngFor='let quote of quotes; let i =index'>
             <div id="card-1" class="card mb-5">
                 <p class=" m-4 lead"><span class="left"><i class="fa fa-quote-left" aria-hidden="true"></i>
-                </span> {{quote.quote}} <span class="author1">~ {{quote.author}}</span></p>
+                </span> {{quote.quote}} <span class="author1">  by ~ {{quote.author}}</span></p>
+                <div class=" mx-4 col-4">
+                    <div class="card-date card">
+                        <p class="date">Posted on {{quote.date | date}}</p>
+
+
+                    </div>
+                </div>
 
                 <div class="card-footer">
                     <button id="like" class="btn " (click)="like(i)"><i class="fa fa-thumbs-up" aria-hidden="true"></i> like</button> <span class="upvote">{{quote.upvotes}}</span>
