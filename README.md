@@ -6,7 +6,6 @@
 
 ## Screenshots
 ### screenshot 1
-![Screenshot from 2022-04-11 08-08-37](https://user-images.githubusercontent.com/82473156/162947870-e832774b-54c1-4941-bb92-190ff2f70bed.png)
 
 ### screenshot 2
 
