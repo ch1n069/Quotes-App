@@ -6,15 +6,16 @@
 
 ## Screenshots
 ### screenshot 1
-![screenshot1](./assets/images/Screenshot from 2022-04-11 08-09-45.png)
+![Screenshot from 2022-04-11 08-08-37](https://user-images.githubusercontent.com/82473156/162947870-e832774b-54c1-4941-bb92-190ff2f70bed.png)
 
 ### screenshot 2
 
-![screenshot2](./assets/images/Screenshot from 2022-04-11 08-09-52)
+![Screenshot from 2022-04-11 08-09-52](https://user-images.githubusercontent.com/82473156/162948222-1e4a77a7-4802-4d25-ac4b-03b383b31f95.png)
 
 ### screenshot 3
+![Screenshot from 2022-04-11 08-09-58](https://user-images.githubusercontent.com/82473156/162948284-02e58939-cff2-405e-9fdf-c49bd48ee490.png)
 
-![screenshot3](https://www.pexels.com/photo/blue-and-gray-concrete-house-with-attic-during-twilight-186077/)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 
